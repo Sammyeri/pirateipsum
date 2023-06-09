@@ -1,0 +1,45 @@
+.wrapper{
+    background-color: white;
+    max-width: 800px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #ccc;
+}
+
+h1{
+    font-family: 'Seaweed Script', cursive;
+}
+
+p{
+    font-family: 'Nanum Brush Script', cursive;
+}
+
+
+img{
+    width: 200px;
+}
+
+.photo{
+    width: 250px;
+    padding: 10px;
+    border: solid #ddd 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: #999 4px 4px ;
+    margin: 4px 15px;
+    color: #333;
+}
+
+.ship{
+    float: right;
+    transform: rotate(5deg);
+}
+
+.chest{
+    float: left;
+    transform: rotate(-5deg);
+}
